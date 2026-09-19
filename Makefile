@@ -24,9 +24,9 @@ lint-strict:
 
 
 clean:
-	rm -rf __pycache__
-	rm -rf mazegen/__pycache__
-	rm -rf viewer/__pycache__
+	find . -type d -name '__pycache__' -exec rm -rf {} +
+	find . -type f -name '*.py[co]' -delete
+	find . -type f -name '.DS_Store' -delete
 	rm -rf .mypy_cache
 	rm -rf maze.txt
 

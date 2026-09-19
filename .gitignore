@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Herramientas
+.mypy_cache/
+
+# Salida del programa
+maze.txt
+
+# macOS
+.DS_Store
