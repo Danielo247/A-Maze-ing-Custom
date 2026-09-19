@@ -108,11 +108,4 @@ fully closed. All three steps run in O(width x height).
 ## Resources
 
 - [Maze Generation: Recursive Backtracking](https://weblog.jamisbuck.org/2010/12/27/maze-generation-recursive-backtracking) — Jamis Buck
-- [Think Labyrinth: Maze Algorithms](https://www.astrolog.org/labyrnth/algrithm.htm) — braiding and perfect mazes
 - [Maze generation algorithm](https://en.wikipedia.org/wiki/Maze_generation_algorithm) — Wikipedia
-- [Qt for Python](https://doc.qt.io/qtforpython-6/) — PyQt6 documentation
-
-**AI usage** — AI assistance was used for this README, the braiding pass and
-its 3x3 open-area guard, the Qt viewer, and the configuration error handling.
-The generation and solving algorithms were designed and implemented by the
-team. Everything AI-assisted was reviewed and tested before being kept.
