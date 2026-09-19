@@ -78,20 +78,6 @@ closed). After an empty line come the entry, the exit and the shortest path as
 
 ---
 
-## Project layout
-
-```
-a_maze_ing.py     entry point: config → generate → solve → save → display
-mazegen/          the generator, independent from any display
-  generator.py      DFS carving, braiding, BFS solver, file export
-viewer/           the Qt viewer
-  themes.py         colour themes and the control list
-  canvas.py         the widget that paints a maze
-  window.py         the window, its controls and the animation
-```
-
----
-
 ## Algorithm
 
 | Step | Algorithm |
