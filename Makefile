@@ -11,11 +11,6 @@ install:
 run:
 	$(PYTHON) $(NAME) config.txt
 
-
-debug:
-	$(PYTHON) -m pdb $(NAME) config.txt
-
-
 lint:
 	$(FLAKE8)
 	$(MYPY) . --warn-return-any --warn-unused-ignores \

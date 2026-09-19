@@ -49,7 +49,6 @@ python3 a_maze_ing.py config.txt
 | Target | Does |
 |--------|------|
 | `lint` / `lint-strict` | flake8 + mypy |
-| `debug` | run under `pdb` |
 | `clean` | remove caches, build artefacts and output |
 
 ---
